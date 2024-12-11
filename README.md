@@ -15,13 +15,13 @@ Make sure Unity is installed and running on your local machine. For more instruc
     - Install the provided Unity package into your Unity project. Located [here](https://github.com/GlitchEnzo/NuGetForUnity/releases).
     - Download the `*.unitypackage` file. Right-click on it in File Explorer and choose "Open in Unity."
     - Once done, you should see a `NuGet` tab in the menu.
-    ![image](./Docs/screenshots/menu_tab.png)
+    ![image](./sample_unity_game/Docs/screenshots/menu_tab.png)
     
     Note: For other installation options, visit this [here](https://github.com/GlitchEnzo/NuGetForUnity?tab=readme-ov-file#how-do-i-install-nugetforunity)
 2. Select `NuGet` -> `Manage NuGet Packages` to open the package manager.
-    ![image](./Docs/screenshots/menu_dropdown.png)
+    ![image](./sample_unity_game/Docs/screenshots/menu_dropdown.png)
 3. Search for and install `StackExchange.Redis`. Make sure it is version 2.8.0. This will install a package in your `Assets/Packages` folder.
-     ![image](./Docs/screenshots/stackexchange_redis_install.png)
+     ![image](./sample_unity_game/Docs/screenshots/stackexchange_redis_install.png)
 4. Search for an install `NuGet.CommandLine` version 6.10.0
 5. Search for and install `System.Runtime.CompilerServices/Unsafe` version 6.0.0
 
